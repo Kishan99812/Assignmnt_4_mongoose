@@ -1,7 +1,7 @@
 const express=require('express');
 const mongoose=require('mongoose');
 const app=express();
-const PORT=8899;
+const PORT=7799;
 
 //Connecting to MongoDB
 mongoose.connect("mongodb://127.0.0.1/Fashion")
